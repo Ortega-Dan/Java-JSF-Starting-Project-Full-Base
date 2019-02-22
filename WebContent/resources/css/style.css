@@ -1,0 +1,33 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+	margin: auto;
+	max-width: 600px;
+	text-align: center;
+	/*background-color: #cceeff;*/
+	background-color: #fff;
+}
+
+table {
+	display: table;
+	margin: auto;
+	width: 400px;
+	background-color: #fff;
+}
+
+.accessform {
+	margin: auto;
+	align-content: center;
+	border-style: dashed;
+	border-color: gray;
+	border-width : 1px;
+	border-radius: 8px;
+	width: 70%;
+	border-width: 1px;
+}
+
+h1 {
+	color: #E61D52;
+}

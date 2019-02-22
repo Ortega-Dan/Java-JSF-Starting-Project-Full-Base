@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<!-- HEAD AND BODY MUST HAVE REFERENCED h NAMESPACE
+	 FOR OTHER NAMESPACES LIKE p TO WORK -->
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>IknoLine</title>
+	<link type="text/css" rel="stylesheet" href="resources/css/style.css" />
+	<link type="text/css" rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Ubuntu" />
+	<meta http-equiv="refresh" content="240" />
+
+</h:head>
+<h:body>
+	<f:event type="preRenderView" listener="#{userBean.checkLogged}" />
+	
+	<h1>IknoLine</h1>
+	<p:button outcome="mps" value="MPS"></p:button> <br />
+	<br />
+	<p:button outcome="login" value="LOGIN"></p:button> <p:button
+		outcome="reports" value="REPORTS"></p:button>
+</h:body>
+</html>

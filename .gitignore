@@ -1,0 +1,11 @@
+# Compiled class files
+*.class
+/build/
+.metadata/
+.classpath
+/bin/
+/target/
+.project
+/.settings/
+.idea/
+*.iml
